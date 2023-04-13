@@ -1,0 +1,78 @@
+﻿@using Final.ViewModel;
+@model UserData
+
+@{
+    Layout = "_UserDataLayout";
+    ViewData["Title"] = "CoverLetter";
+}
+
+<h1>Objectives</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Skill" asp-controller="UserData" >
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @*cover letter*@
+            <div class="form-group">
+                <label asp-for="CoverLetter" class="control-label" style="font-size: 25px;width:200px"></label>
+                <textarea style="height: 140px;width: 450px;font-size: 21px;" asp-for="CoverLetter" class="form-control"></textarea>
+                <span asp-validation-for="CoverLetter" class="text-danger"></span>
+            </div>
+            @*personal info*@
+            <div class="form-group">
+                
+                <input hidden type="text" value="@Model.PersonalInfo.Address" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Address" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.PersonalInfo.Age" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Age" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.PersonalInfo.Languages" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Languages" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+                
+                <input hidden type="text" value="@Model.PersonalInfo.Phone" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Phone" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+                
+                <input hidden type="text" value="@Model.PersonalInfo.Photo" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Photo" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+                
+                <input hidden type="text" value="@Model.PersonalInfo.Name" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Name" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+                
+                <input hidden type="text" value="@Model.PersonalInfo.Email" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Email" class="form-control"></input>
+                
+            </div>
+            <div class="form-group">
+                
+                <input hidden type="text" value="@Model.PersonalInfo.JobTitle" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.JobTitle" class="form-control"></input>
+
+            </div>
+            
+            
+            <div class="form-group">
+                <br />
+                <input type="submit" value="Next" name="submit" class="btn " style="background-color:#eb5d1e;color:white" />
+          
+            
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

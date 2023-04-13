@@ -1,0 +1,58 @@
+﻿@model Final.ViewModel.RegisterationViewModel
+
+@{
+    Layout = "_LoginLayout";
+    ViewData["Title"] = "Registration";
+}
+
+<h1 style="font-size:32px; margin-top: -60px;">Registration</h1>
+
+
+<hr style="width:69%" />
+<div class="row">
+    <div class="col-md-4" >
+        <form asp-action="Registration" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" style="width: max-content" class="text-danger"></div>
+            <div class="form-group" style="width:25rem ; margin-bottom:15px">
+                <label asp-for="UserNAme" class="control-label" style="font-size:20px"></label>
+                <input asp-for="UserNAme" class="form-control" style="font-size: 17px; width:230px;" />
+                <span asp-validation-for="UserNAme" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="width:25rem ; margin-bottom:10px">
+                <label asp-for="Password" class="control-label" style="font-size:20px"></label>
+                <input asp-for="Password" class="form-control" style="font-size: 17px; width:230px;" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="width:25rem ; margin-bottom:10px">
+                <label asp-for="ConfirmPassword" class="control-label" style="font-size:20px"></label>
+                <input asp-for="ConfirmPassword" class="form-control" style="font-size: 17px; width:230px;" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="width:25rem ; margin-bottom:10px">
+                <label asp-for="Email" class="control-label" style="font-size:20px"></label>
+                <input asp-for="Email" class="form-control" style="font-size: 17x; width:230px;" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="width:25rem ; margin-bottom:10px">
+                <label asp-for="image" class="control-label" style="font-size:20px"></label>
+                <input type="file" formenctype="" asp-for="image" class="form-control" style="font-size: 17px; width:230px;" />
+                <span asp-validation-for="image" class="text-danger"></span>
+            </div>
+
+            <div class="form-group" style="width:25rem ; margin-bottom:20px">
+                <label asp-for="Images" class="control-label" style="font-size:20px"></label>
+                <input type="file" name="Images" asp-for="Images" class="form-control" style="font-size: 17px; width:230px;" />
+                <span asp-validation-for="Images" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group" style="width:25rem ; margin-bottom:10px">
+                <input type="submit" value="Register" class="btn btn-primary" style="padding:5px; width:12rem;margin-bottom:20px;font-size:20px" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

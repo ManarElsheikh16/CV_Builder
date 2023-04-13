@@ -1,0 +1,74 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+
+}
+<head>
+	<style>
+	
+		#bttn{
+			background-color: white;
+			color: #eb5d1e;
+			border-color: #eb5d1e;
+			margin-top: 20px;
+		}
+		#bttn:hover{
+       background-color:#eb5d1e;
+				color: white;
+
+		}
+
+		.linnk:hover{
+			color:white;
+		}
+
+	
+
+		
+	</style>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<div class="text-center">
+	<h1 class="display-4" style="font-family: 'Alkatra', cursive">Start Makeing Your own CV</h1>
+
+	<div class="col-md-3 text-center" style="transform:translateX(199px)">
+		<!-- button classes -->
+		
+		<button role="button" id="bttn"  class="btn  btn-lg btn-iconed btn-rounded">
+			<a href="/UserData/PersonalInfo" class="linnk">
+			<i class="fa fa-heart "></i> 
+			<span class="spn ">GO</span>
+		   </a>
+		</button>
+		
+		
+	</div>
+</div>
+
+@section UserImage{
+	<img width="40" height="40" style="float:left; margin-right:10px" src="/img/portfolio/@ViewBag.UserImg" class="nav-link scrollto active rounded-circle d-flex" href="/Home/Index">
+
+	<h5 style="font-size:17px ; margin-top:7px ; " class="d-flex">@User.Identity.Name</h5>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

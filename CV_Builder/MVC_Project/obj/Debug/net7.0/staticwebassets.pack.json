@@ -1,0 +1,2029 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Final.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Final.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template1\\aostemp1.css",
+      "PackagePath": "staticwebassets\\css\\template1\\aostemp1.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template1\\bootstraptemp1.min.css",
+      "PackagePath": "staticwebassets\\css\\template1\\bootstraptemp1.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template1\\maintemp1.css",
+      "PackagePath": "staticwebassets\\css\\template1\\maintemp1.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\aos.css",
+      "PackagePath": "staticwebassets\\css\\template2\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\template2\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\template2\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\template2\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\css\\template2\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\main.css",
+      "PackagePath": "staticwebassets\\css\\template2\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\print.css",
+      "PackagePath": "staticwebassets\\css\\template2\\print.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template2\\site.css",
+      "PackagePath": "staticwebassets\\css\\template2\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\aos.css",
+      "PackagePath": "staticwebassets\\css\\template3\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\css\\template3\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\main.css",
+      "PackagePath": "staticwebassets\\css\\template3\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\mdb.min.css",
+      "PackagePath": "staticwebassets\\css\\template3\\mdb.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\mdb.min.css.map",
+      "PackagePath": "staticwebassets\\css\\template3\\mdb.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\mdb.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\template3\\mdb.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template3\\mdb.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\template3\\mdb.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\default.css",
+      "PackagePath": "staticwebassets\\css\\template4\\default.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\core.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\core.less"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\fixed-width.less"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\font-awesome.less"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\icons.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\icons.less"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\larger.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\larger.less"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\list.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\list.less"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\mixins.less"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\path.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\path.less"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\spinning.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\spinning.less"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\stacked.less"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\less\\variables.less",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\less\\variables.less"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_core.scss"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_larger.scss"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_list.scss"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_path.scss"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_spinning.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_spinning.scss"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\font-awesome\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\css\\template4\\font-awesome\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fontello\\css\\animation.css",
+      "PackagePath": "staticwebassets\\css\\template4\\fontello\\css\\animation.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fontello\\css\\fontello-codes.css",
+      "PackagePath": "staticwebassets\\css\\template4\\fontello\\css\\fontello-codes.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fontello\\css\\fontello-embedded.css",
+      "PackagePath": "staticwebassets\\css\\template4\\fontello\\css\\fontello-embedded.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fontello\\css\\fontello-ie7-codes.css",
+      "PackagePath": "staticwebassets\\css\\template4\\fontello\\css\\fontello-ie7-codes.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fontello\\css\\fontello-ie7.css",
+      "PackagePath": "staticwebassets\\css\\template4\\fontello\\css\\fontello-ie7.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fontello\\css\\fontello.css",
+      "PackagePath": "staticwebassets\\css\\template4\\fontello\\css\\fontello.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fontello\\font\\fontello.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fontello\\font\\fontello.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fontello\\font\\fontello.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fontello\\font\\fontello.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fontello\\font\\fontello.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fontello\\font\\fontello.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fontello\\font\\fontello.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fontello\\font\\fontello.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts.css",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-bold-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-bold-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-bold-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-bold-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-bold-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-bold-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-bold-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-bold-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-italic-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-italic-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-italic-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-italic-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-italic-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-italic-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-italic-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-italic-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-regular-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-regular-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-regular-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-regular-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-regular-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-regular-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\librebaskerville\\librebaskerville-regular-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\librebaskerville\\librebaskerville-regular-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Bold-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Bold-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Bold-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Bold-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Bold-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Bold-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Bold-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Bold-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-BoldItalic-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-BoldItalic-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-BoldItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-BoldItalic-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-BoldItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-BoldItalic-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-BoldItalic-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-BoldItalic-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBold-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBold-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBold-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBold-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBold-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBold-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBold-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBold-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBoldItalic-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBoldItalic-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBoldItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBoldItalic-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBoldItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBoldItalic-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBoldItalic-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-ExtraBoldItalic-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Italic-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Italic-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Italic-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Italic-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Italic-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Italic-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Italic-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Italic-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Light-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Light-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Light-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Light-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Light-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Light-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Light-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Light-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-LightItalic-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-LightItalic-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-LightItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-LightItalic-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-LightItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-LightItalic-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-LightItalic-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-LightItalic-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Regular-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Regular-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Regular-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Regular-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Regular-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Regular-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Regular-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Regular-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Semibold-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Semibold-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Semibold-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Semibold-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Semibold-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Semibold-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-Semibold-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-Semibold-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-SemiboldItalic-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-SemiboldItalic-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-SemiboldItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-SemiboldItalic-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-SemiboldItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-SemiboldItalic-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\fonts\\opensans\\OpenSans-SemiboldItalic-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\template4\\fonts\\opensans\\OpenSans-SemiboldItalic-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\layout.css",
+      "PackagePath": "staticwebassets\\css\\template4\\layout.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\template4\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template4\\media-queries.css",
+      "PackagePath": "staticwebassets\\css\\template4\\media-queries.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\aos.css",
+      "PackagePath": "staticwebassets\\css\\template5\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\css\\template5\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\css\\template5\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\css\\template5\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\css\\template5\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\bootstrap-icons\\index.html",
+      "PackagePath": "staticwebassets\\css\\template5\\bootstrap-icons\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\template5\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\template5\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\template5\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\css\\template5\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template5\\main.css",
+      "PackagePath": "staticwebassets\\css\\template5\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template6\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\template6\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template6\\devicons\\css\\devicons.css",
+      "PackagePath": "staticwebassets\\css\\template6\\devicons\\css\\devicons.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template6\\devicons\\css\\devicons.min.css",
+      "PackagePath": "staticwebassets\\css\\template6\\devicons\\css\\devicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template6\\devicons\\css\\devicons.scss",
+      "PackagePath": "staticwebassets\\css\\template6\\devicons\\css\\devicons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template6\\devicons\\fonts\\devicons.eot",
+      "PackagePath": "staticwebassets\\css\\template6\\devicons\\fonts\\devicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template6\\devicons\\fonts\\devicons.svg",
+      "PackagePath": "staticwebassets\\css\\template6\\devicons\\fonts\\devicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template6\\devicons\\fonts\\devicons.ttf",
+      "PackagePath": "staticwebassets\\css\\template6\\devicons\\fonts\\devicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template6\\devicons\\fonts\\devicons.woff",
+      "PackagePath": "staticwebassets\\css\\template6\\devicons\\fonts\\devicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template6\\simple-line-icons\\css\\simple-line-icons.css",
+      "PackagePath": "staticwebassets\\css\\template6\\simple-line-icons\\css\\simple-line-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\css\\template6\\style.css",
+      "PackagePath": "staticwebassets\\css\\template6\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\WhatsApp Image 2023-03-08 at 21.01.08.jpeg",
+      "PackagePath": "staticwebassets\\img\\WhatsApp Image 2023-03-08 at 21.01.08.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\about-img.svg",
+      "PackagePath": "staticwebassets\\img\\about-img.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\back.png",
+      "PackagePath": "staticwebassets\\img\\back.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\clients\\0ea5948a-ebdd-4005-8224-951547a8c14c.jfif",
+      "PackagePath": "staticwebassets\\img\\clients\\0ea5948a-ebdd-4005-8224-951547a8c14c.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\clients\\16 очаровательных зверенышей, на которых вам срочно нужно посмотреть!.jpg",
+      "PackagePath": "staticwebassets\\img\\clients\\16 очаровательных зверенышей, на которых вам срочно нужно посмотреть!.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\clients\\Ibrahim.jpeg",
+      "PackagePath": "staticwebassets\\img\\clients\\Ibrahim.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\clients\\Manar Abd Elhafez.jpg",
+      "PackagePath": "staticwebassets\\img\\clients\\Manar Abd Elhafez.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\clients\\User1.jpeg",
+      "PackagePath": "staticwebassets\\img\\clients\\User1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\clients\\ast.png",
+      "PackagePath": "staticwebassets\\img\\clients\\ast.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\clients\\client-1.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\clients\\client-2.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\clients\\client-3.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\clients\\client-4.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\clients\\client-5.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\clients\\client-6.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\clients\\client-7.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-7.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\clients\\client-8.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-8.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\clients\\myPhoto.jfif",
+      "PackagePath": "staticwebassets\\img\\clients\\myPhoto.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\hero-img.svg",
+      "PackagePath": "staticwebassets\\img\\hero-img.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\loginOrange.df1992fa.svg",
+      "PackagePath": "staticwebassets\\img\\loginOrange.df1992fa.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\16 очаровательных зверенышей, на которых вам срочно нужно посмотреть!.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\16 очаровательных зверенышей, на которых вам срочно нужно посмотреть!.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\CV1.jpeg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\CV1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\CV2.jpeg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\CV2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\CV3.jpeg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\CV3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\CV4.jpeg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\CV4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\CV5.jpeg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\CV5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\CV6.jpeg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\CV6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\H6wwHJqDnUNHamw8Owm4vDIPvMerVEyCUXjqznsj.jpeg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\H6wwHJqDnUNHamw8Owm4vDIPvMerVEyCUXjqznsj.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\IMG_20221107_104452.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\IMG_20221107_104452.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\Ibrahim.jpeg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\Ibrahim.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\Nada Mahmoud.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\Nada Mahmoud.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\WhatsApp Image 2023-01-30 at 6.49.51 PM.jpeg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\WhatsApp Image 2023-01-30 at 6.49.51 PM.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\food1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\food1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\myPhoto.jfif",
+      "PackagePath": "staticwebassets\\img\\portfolio\\myPhoto.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\portfolio-1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\portfolio-2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\portfolio-3.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\portfolio-4.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\portfolio-5.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\portfolio-6.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\portfolio-7.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\portfolio-8.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\portfolio-9.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\portfolio-details-1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-details-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\portfolio-details-2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-details-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\portfolio-details-3.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-details-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\user1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\user1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\portfolio\\user2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\user2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\sliderlayout\\Temp1.png",
+      "PackagePath": "staticwebassets\\img\\sliderlayout\\Temp1.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\sliderlayout\\Temp2.png",
+      "PackagePath": "staticwebassets\\img\\sliderlayout\\Temp2.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\sliderlayout\\Temp3.png",
+      "PackagePath": "staticwebassets\\img\\sliderlayout\\Temp3.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\sliderlayout\\Temp4.png",
+      "PackagePath": "staticwebassets\\img\\sliderlayout\\Temp4.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\sliderlayout\\Temp5.png",
+      "PackagePath": "staticwebassets\\img\\sliderlayout\\Temp5.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\sliderlayout\\Temp6.png",
+      "PackagePath": "staticwebassets\\img\\sliderlayout\\Temp6.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\team\\Esraa Adel.jpeg",
+      "PackagePath": "staticwebassets\\img\\team\\Esraa Adel.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\team\\Ibrahim.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\Ibrahim.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\team\\Mahmoud Emad.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\Mahmoud Emad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\team\\Manar Abd Elhafez.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\Manar Abd Elhafez.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\team\\Menna.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\Menna.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\team\\Nada Mahmoud.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\Nada Mahmoud.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\team\\resume-7065112__340.png",
+      "PackagePath": "staticwebassets\\img\\team\\resume-7065112__340.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\team\\resume-and-cv.png",
+      "PackagePath": "staticwebassets\\img\\team\\resume-and-cv.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\team\\showall.png",
+      "PackagePath": "staticwebassets\\img\\team\\showall.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\team\\template.png",
+      "PackagePath": "staticwebassets\\img\\team\\template.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template1\\anthony.jpg",
+      "PackagePath": "staticwebassets\\img\\template1\\anthony.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template1\\cc-bg-1.jpg",
+      "PackagePath": "staticwebassets\\img\\template1\\cc-bg-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template2\\avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\template2\\avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template3\\avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\template3\\avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template3\\header-background.jpg",
+      "PackagePath": "staticwebassets\\img\\template3\\header-background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template4\\header-background.jpg",
+      "PackagePath": "staticwebassets\\img\\template4\\header-background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template4\\profilepic.jpg",
+      "PackagePath": "staticwebassets\\img\\template4\\profilepic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template5\\avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\template5\\avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template5\\hello3.svg",
+      "PackagePath": "staticwebassets\\img\\template5\\hello3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template5\\marker.svg",
+      "PackagePath": "staticwebassets\\img\\template5\\marker.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template5\\services\\app-development.svg",
+      "PackagePath": "staticwebassets\\img\\template5\\services\\app-development.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template5\\services\\full-stack.svg",
+      "PackagePath": "staticwebassets\\img\\template5\\services\\full-stack.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template5\\services\\graphic-design.svg",
+      "PackagePath": "staticwebassets\\img\\template5\\services\\graphic-design.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template5\\services\\ui-ux.svg",
+      "PackagePath": "staticwebassets\\img\\template5\\services\\ui-ux.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template5\\services\\web-design.svg",
+      "PackagePath": "staticwebassets\\img\\template5\\services\\web-design.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template5\\testimonials\\client1.jpg",
+      "PackagePath": "staticwebassets\\img\\template5\\testimonials\\client1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template5\\testimonials\\client2.jpg",
+      "PackagePath": "staticwebassets\\img\\template5\\testimonials\\client2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template5\\testimonials\\client3.jpg",
+      "PackagePath": "staticwebassets\\img\\template5\\testimonials\\client3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template5\\testimonials\\client4.jpg",
+      "PackagePath": "staticwebassets\\img\\template5\\testimonials\\client4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template5\\wave-bg.svg",
+      "PackagePath": "staticwebassets\\img\\template5\\wave-bg.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template6\\background_2.jpg",
+      "PackagePath": "staticwebassets\\img\\template6\\background_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template6\\bg-stats.jpg",
+      "PackagePath": "staticwebassets\\img\\template6\\bg-stats.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template6\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\template6\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template6\\logo-s.png",
+      "PackagePath": "staticwebassets\\img\\template6\\logo-s.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template6\\logo-white.png",
+      "PackagePath": "staticwebassets\\img\\template6\\logo-white.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template6\\profile-banner.jpg",
+      "PackagePath": "staticwebassets\\img\\template6\\profile-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\img\\template6\\profile.jpg",
+      "PackagePath": "staticwebassets\\img\\template6\\profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\sliderlayout\\jssor.slider-28.1.0.min.js",
+      "PackagePath": "staticwebassets\\js\\sliderlayout\\jssor.slider-28.1.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template1\\aostemp1.js",
+      "PackagePath": "staticwebassets\\js\\template1\\aostemp1.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template1\\core\\bootstraptemp1.min.js",
+      "PackagePath": "staticwebassets\\js\\template1\\core\\bootstraptemp1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template1\\core\\jquerytemp1.3.2.1.min.js",
+      "PackagePath": "staticwebassets\\js\\template1\\core\\jquerytemp1.3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template1\\core\\poppertemp1.min.js",
+      "PackagePath": "staticwebassets\\js\\template1\\core\\poppertemp1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template1\\now-ui-kittemp1.js",
+      "PackagePath": "staticwebassets\\js\\template1\\now-ui-kittemp1.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template1\\plugins\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\js\\template1\\plugins\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template1\\plugins\\bootstrap-switch.js",
+      "PackagePath": "staticwebassets\\js\\template1\\plugins\\bootstrap-switch.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template1\\plugins\\jquery.sharrre.js",
+      "PackagePath": "staticwebassets\\js\\template1\\plugins\\jquery.sharrre.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template1\\plugins\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\js\\template1\\plugins\\nouislider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template1\\scripts\\maintemp1.js",
+      "PackagePath": "staticwebassets\\js\\template1\\scripts\\maintemp1.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template2\\aos.js",
+      "PackagePath": "staticwebassets\\js\\template2\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template2\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\template2\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template2\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\template2\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template2\\main.js",
+      "PackagePath": "staticwebassets\\js\\template2\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template3\\aos.js",
+      "PackagePath": "staticwebassets\\js\\template3\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template3\\main.js",
+      "PackagePath": "staticwebassets\\js\\template3\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template3\\mdb.min.js",
+      "PackagePath": "staticwebassets\\js\\template3\\mdb.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template3\\mdb.min.js.map",
+      "PackagePath": "staticwebassets\\js\\template3\\mdb.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template4\\init.js",
+      "PackagePath": "staticwebassets\\js\\template4\\init.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template4\\jquery-1.10.2.min.js",
+      "PackagePath": "staticwebassets\\js\\template4\\jquery-1.10.2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template4\\jquery-migrate-1.2.1.min.js",
+      "PackagePath": "staticwebassets\\js\\template4\\jquery-migrate-1.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template4\\jquery.fittext.js",
+      "PackagePath": "staticwebassets\\js\\template4\\jquery.fittext.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template4\\jquery.flexslider.js",
+      "PackagePath": "staticwebassets\\js\\template4\\jquery.flexslider.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template4\\magnific-popup.js",
+      "PackagePath": "staticwebassets\\js\\template4\\magnific-popup.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template4\\modernizr.js",
+      "PackagePath": "staticwebassets\\js\\template4\\modernizr.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template4\\waypoints.js",
+      "PackagePath": "staticwebassets\\js\\template4\\waypoints.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template5\\BigPicture.min.js",
+      "PackagePath": "staticwebassets\\js\\template5\\BigPicture.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template5\\aos.min.js",
+      "PackagePath": "staticwebassets\\js\\template5\\aos.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template5\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\template5\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template5\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\template5\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template5\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\template5\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template5\\main.js",
+      "PackagePath": "staticwebassets\\js\\template5\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template5\\masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\template5\\masonry.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template5\\purecounter.min.js",
+      "PackagePath": "staticwebassets\\js\\template5\\purecounter.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template6\\bootstrap\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\template6\\bootstrap\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template6\\counter\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\js\\template6\\counter\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template6\\counter\\jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets\\js\\template6\\counter\\jquery.waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template6\\custom.js",
+      "PackagePath": "staticwebassets\\js\\template6\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template6\\jquery-easing\\jquery.easing.compatibility.js",
+      "PackagePath": "staticwebassets\\js\\template6\\jquery-easing\\jquery.easing.compatibility.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template6\\jquery-easing\\jquery.easing.js",
+      "PackagePath": "staticwebassets\\js\\template6\\jquery-easing\\jquery.easing.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template6\\jquery-easing\\jquery.easing.min.js",
+      "PackagePath": "staticwebassets\\js\\template6\\jquery-easing\\jquery.easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template6\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\template6\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\js\\template6\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\template6\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\microsoft-signalr\\signalr.js",
+      "PackagePath": "staticwebassets\\microsoft-signalr\\signalr.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\microsoft-signalr\\signalr.min.js",
+      "PackagePath": "staticwebassets\\microsoft-signalr\\signalr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\rei.png",
+      "PackagePath": "staticwebassets\\rei.png"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\sass\\style.scss",
+      "PackagePath": "staticwebassets\\sass\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\boxicons\\css\\animations.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\animations.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\boxicons\\css\\boxicons.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\boxicons.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\boxicons\\css\\boxicons.min.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\boxicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\boxicons\\css\\transformations.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\transformations.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\glightbox\\css\\plyr.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\plyr.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\glightbox\\css\\plyr.min.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\plyr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\isotope-layout\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\vendor\\isotope-layout\\isotope.pkgd.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\isotope-layout\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\vendor\\isotope-layout\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\vendor\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Electronica Care\\Desktop\\yarab\\MVC_Project\\wwwroot\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Final.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Final.props",
+      "PackagePath": "build\\Final.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Final.props",
+      "PackagePath": "buildMultiTargeting\\Final.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Final.props",
+      "PackagePath": "buildTransitive\\Final.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

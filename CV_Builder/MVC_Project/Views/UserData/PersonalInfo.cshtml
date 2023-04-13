@@ -1,0 +1,73 @@
+﻿@using Final.ViewModel;
+@model PersonalViewModel
+
+@{
+    Layout = "_UserDataLayout";
+    ViewData["Title"] = "PersonalInfo";
+}
+
+<h1 style="width:600px;margin-top: -55px;">Personal Information</h1>
+<hr />
+
+<div class="row" style="height:auto">
+    <div class="col-md-4" style="height:auto">
+        <form asp-action="coverLetter" asp-controller="UserData" style="height:auto" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger" ></div>
+
+            @*personalinfo*@
+            <div class="form-group">
+                <label asp-for="@Model.Name" class="control-label" style="font-size: 25px;"></label>
+                <input asp-for="@Model.Name" class="form-control" style="width:250px;font-size: 21px;" />
+                <span asp-validation-for="@Model.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Age" class="control-label" style="font-size: 25px;"></label>
+                <input asp-for="@Model.Age" class="form-control" style="width:250px;font-size: 21px;" />
+                <span asp-validation-for="@Model.Age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Address" class="control-label" style="font-size: 25px;"></label>
+                <input asp-for="@Model.Address" class="form-control" style="width:250px;font-size: 21px;" />
+                <span asp-validation-for="@Model.Address" class="text-danger"></span>
+            </div>
+
+             <div class="form-group">
+                <label asp-for="@Model.Email" class="control-label" style="font-size: 25px;"></label>
+                <input asp-for="@Model.Email" class="form-control" style="width:250px;font-size: 21px;" />
+                <span asp-validation-for="@Model.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Phone" class="control-label" style="font-size: 25px;"></label>
+                <input asp-for="@Model.Phone" class="form-control" style="width:250px;font-size: 21px;" />
+                <span asp-validation-for="@Model.Phone" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="@Model.Photo" class="control-label" style="font-size: 25px;"></label>
+                <input asp-for="@Model.Photo" type="file" class="form-control" style="width:250px;font-size: 21px;" />
+                <span asp-validation-for="@Model.Photo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Languages" class="control-label" style="font-size: 25px;"></label>
+                <input asp-for="@Model.Languages" class="form-control" style="width:250px;font-size: 21px;" />
+                <span asp-validation-for="@Model.Languages" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.JobTitle" class="control-label" style="font-size: 25px;"></label>
+                <input asp-for="@Model.JobTitle" class="form-control" style="width:250px;font-size: 21px;" />
+                <span asp-validation-for="@Model.JobTitle" class="text-danger"></span>
+            </div>
+   
+            <div class="form-group">
+                <br />
+                <input type="submit" value="Next" class="btn " style="background-color:#eb5d1e;color:white" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,169 @@
+﻿@{
+    ViewData["Title"] = "Slider";
+    Layout = "_TemplatesSliderLayout";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+       
+
+        swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+
+        swiper-container {
+            width: 100%;
+            height: 300px;
+        }
+
+        swiper-slide {
+            background-size: cover;
+            background-position: center;
+        }
+
+        .mySwiper {
+            height: 80%;
+            width: 100%;
+        }
+
+        .mySwiper2 {
+            height: 20%;            
+        }
+
+            .mySwiper2 swiper-slide {
+                width: 100%;
+                height: 100%;
+                opacity: 0.4;
+            }
+
+            .mySwiper2 .swiper-slide-thumb-active {
+                opacity: 1;
+            }
+
+        swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <swiper-container class="mySwiper2" space-between="10" slides-per-view="4" 
+                      watch-slides-progress="true">
+        <swiper-slide>
+            <img src="/img/sliderlayout/Temp1.png"  />
+        </swiper-slide>
+        <swiper-slide>
+            <img src="/img/sliderlayout/Temp2.png" />
+        </swiper-slide>
+        <swiper-slide>
+            <img src="/img/sliderlayout/Temp3.png" />
+        </swiper-slide>
+        <swiper-slide>
+            <img src="/img/sliderlayout/Temp4.png" />
+        </swiper-slide>
+        <swiper-slide>
+            <img src="/img/sliderlayout/Temp5.png" />
+        </swiper-slide>
+        <swiper-slide>
+            <img src="/img/sliderlayout/Temp6.png" />
+        </swiper-slide>
+
+    </swiper-container>
+
+    <swiper-container style="height:90vh ;width:100vw; border-top:6px solid #eb5d1e;border-bottom:6px solid #eb5d1e " class="mySwiper"
+                      thumbs-swiper=".mySwiper2" space-between="10" >
+        <swiper-slide >
+            <div>
+
+                <div style="overflow-y:scroll;height:90vh;width:100vw;">
+                
+                    @Html.Partial("Template1");
+            </div>
+                
+            
+            </div>
+
+        </swiper-slide>
+        <swiper-slide>
+            <div>
+                <div style="overflow-y:scroll;height:90vh;width:100vw;">
+                    @Html.Partial("Template2");
+                </div>
+
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <div>
+                <div style="overflow-y:scroll;height:90vh;width:100vw;">
+                    @Html.Partial("Template3");
+                </div>
+
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <div>
+                <div style="overflow-y:scroll;height:90vh;width:100vw;">
+                    @Html.Partial("Template4");
+                </div>
+
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <div>
+                <div style="overflow-y:scroll;height:90vh;width:100vw;">
+                    @Html.Partial("Template5");
+                </div>
+
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <div>
+                <div style="overflow-y:scroll;height:90vh;width:100vw;">
+                    @Html.Partial("Template6");
+                </div>
+
+            </div>
+        </swiper-slide>
+       
+    </swiper-container>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
+</body>
+
+</html>

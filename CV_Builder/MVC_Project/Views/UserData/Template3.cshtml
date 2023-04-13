@@ -1,0 +1,285 @@
+﻿@model UserData
+@{
+    ViewData["Title"] = "Template3";
+    //Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Material Resume</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'" />
+   
+    <link href="/css/template3/font-awesome/css/all.min.css?ver=1.2.1" rel="stylesheet">
+    <link href="/css/template3/mdb.min.css?ver=1.2.1" rel="stylesheet">
+    <link href="/css/template3/aos.css?ver=1.2.1" rel="stylesheet">
+    <link href="/css/template3/main.css?ver=1.2.1" rel="stylesheet">
+    <link href="https://fontawesome.com/icons/linkedin?f=brands&s=solid" rel="stylesheet">
+    <link href="https://fontawesome.com/icons/github?f=brands&s=solid" rel="stylesheet">
+    
+</head>
+<body class="bg-light" id="top">
+    
+    <div class="page-content">
+        <div class="container">
+            <div class="resume-container">
+
+                <div class="shadow-1-strong bg-white my-5" id="intro">
+                    <div class="bg-info text-white">
+                        <div class="cover bg-image">
+                            <img src="/img/template3/header-background.jpg" style="width: 1300px;" />
+                            <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);backdrop-filter: blur(2px);">
+                                @*<div class="text-center p-5">*@
+                                    <div class="avatar" style=" position: absolute; left: 510px;width:280px;height:250px" >
+                                        <img class="img-thumbnail shadow-2-strong" src="/img/clients/@Model.PersonalInfo.Photo"style=" width:280px;height:250px" />
+                                    </div>
+                                    <div class="header-bio mt-3" style="color:#fff; position: absolute; top: 59%;left: 34%;">
+                                        <div  >
+                                        <h2 class="h1" style="margin-top: -39px;">@Model.PersonalInfo.Name</h2>
+                                            <p>@Model.PersonalInfo.JobTitle</p>
+                                        <div>
+
+                                            <a href="@Model.Links.GitHub" target="_blank"><i style="font-size:34px;    margin:10px;color:white" class="fa-brands fa-github"></i></a>
+
+                                            <a href="@Model.Links.Linkedin" target="_blank"><i style="font-size:34px; color:blue;" class="fa-brands fa-linkedin"></i></a>
+
+                                        </div>
+                                        </div>
+
+                                        <div class="d-print-none"><a class="btn btn-outline-light btn-lg shadow-sm mt-1 me-3" href="material-resume.pdf" >Download CV</a></div>
+                                    </div>
+                               @* </div>*@
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shadow-1-strong bg-white my-5 p-5" id="about">
+                    <div class="about-section">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h2 class="h2 fw-light mb-4" style="color:red" >Objectives</h2>
+                               
+                                <p>@Model.CoverLetter</p>
+                            </div>
+                            <div class="col-md-5 offset-lg-1">
+                                <div class="row mt-2">
+                                    <h2 class="h2 fw-light mb-4" style="color:red; margin-left:-55px">Personal Information</h2>
+                                    <div class="col-md-4 text-left">
+                                        <div class="pb-2 fw-bolder"><i class="far fa-calendar-alt pe-1 text-muted" style="opacity:0.85;"></i> Age</div>
+                                    </div>
+                                    <div class="col-md-8 text-left">
+                                        <div class="pb-2">@Model.PersonalInfo.Age</div>
+                                    </div>
+                                    <div class="col-md-4 text-left">
+                                        <div class="pb-2 fw-bolder"><i class="far fa-envelope pe-1 text-muted" style="opacity:0.85;"></i> Email</div>
+                                    </div>
+                                    <div class="col-md-8 text-left">
+                                        <div class="pb-2"><a style="color:black" href="mailto:@Model.PersonalInfo.Email" target="_blank">@Model.PersonalInfo.Email</a></div>
+                                    </div>
+
+                                    <div class="col-md-4 text-left">
+                                        <div class="pb-2 fw-bolder"><i class="fas fa-phone pe-1 text-muted" style="opacity:0.85;"></i> Phone</div>
+                                    </div>
+                                    <div class="col-md-8 text-left">
+                                        <div class="pb-2">@Model.PersonalInfo.Phone</div>
+                                    </div>
+                                    <div class="col-md-4 text-left">
+                                        <div class="pb-2 fw-bolder"><i class="fas fa-map-marker-alt pe-1 text-muted" style="opacity:0.85;"></i> Address</div>
+                                    </div>
+                                    <div class="col-md-8 text-left">
+                                        <div class="pb-2">@Model.PersonalInfo.Address</div>
+                                    </div>
+
+                                    <div class="col-md-4 text-left">
+                                        <div class="pb-2 fw-bolder"><i class="fa fa-globe pe-1 text-muted" style="opacity:0.85;"></i>Language</div>
+                                    </div>
+                                    <div class="col-md-8 text-left">
+                                        <div class="pb-2">@Model.PersonalInfo.Languages</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="shadow-1-strong bg-white my-5 p-5" id="skills">
+                    <div class="skills-section">
+                        <h2 class="h2  mb-4" style="color:red;font-weight:bold">Professional Skills</h2>
+                        <div class="row" style="margin-left:70px">
+                            <div class="col-md-6">
+                                @if (@Model.Skill[0].Name != null && @Model.Skill[0].Level != null)
+                                    {
+                            <div class="mb-2">
+                                    <span>@Model.Skill[0].Name</span>
+                                        <div class="progress my-1" style="height:25px">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="@Model.Skill[0].Level" aria-valuemin="20" aria-valuemax="100" style="height:30px; width: @Model.Skill[0].Level%"></div><span class="progress-value" style="margin-left:10px">@Model.Skill[0].Level %</span>
+                                </div>
+                            </div>
+                                    }
+                                @if (@Model.Skill[1].Name != null && @Model.Skill[1].Level != null)
+                                {
+                                    <div class="mb-2">
+                                        <span>@Model.Skill[1].Name</span>
+                                        <div class="progress my-1" style="height:25px">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="@Model.Skill[1].Level" aria-valuemin="20" aria-valuemax="100" style="height:30px; width: @Model.Skill[1].Level%"></div><span class="progress-value" style="margin-left:10px">@Model.Skill[1].Level %</span>
+                                        </div>
+                                    </div>
+                                }
+                                @if (@Model.Skill[2].Name != null && @Model.Skill[2].Level != null)
+                                    {
+                            <div class="mb-2">
+                                    <span>@Model.Skill[2].Name</span>
+                                        <div class="progress my-1" style="height:25px">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="@Model.Skill[2].Level" aria-valuemin="20" aria-valuemax="100" style="height:30px; width: @Model.Skill[2].Level%"></div><span class="progress-value" style="margin-left:10px">@Model.Skill[2].Level %</span>
+                                </div>
+                            </div>
+                                    }
+                            </div>
+                            <div class="col-md-6">
+                                 @if (@Model.Skill[3].Name != null && @Model.Skill[3].Level != null)
+                                    {
+                            <div class="mb-2">
+                                    <span>@Model.Skill[3].Name</span>
+                                        <div class="progress my-1" style="height:25px">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="@Model.Skill[3].Level" aria-valuemin="20" aria-valuemax="100" style="height:30px; width: @Model.Skill[3].Level%"></div><span class="progress-value" style="margin-left:10px">@Model.Skill[3].Level %</span>
+                                </div>
+                            </div>
+                                    }
+                                @if (@Model.Skill[4].Name != null && @Model.Skill[4].Level != null)
+                                {
+                                    <div class="mb-2">
+                                        <span>@Model.Skill[4].Name</span>
+                                        <div class="progress my-1" style="height:25px">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="@Model.Skill[4].Level" aria-valuemin="20" aria-valuemax="100" style="height:30px; width: @Model.Skill[4].Level%"></div><span class="progress-value" style="margin-left:10px">@Model.Skill[4].Level %</span>
+                                        </div>
+                                    </div>
+                                }
+                                @if (@Model.Skill[5].Name != null && @Model.Skill[5].Level != null)
+                                {
+                                    <div class="mb-2">
+                                        <span>@Model.Skill[5].Name</span>
+                                        <div class="progress my-1" style="height:25px">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="@Model.Skill[5].Level" aria-valuemin="20" aria-valuemax="100" style=" height:30px; width: @Model.Skill[5].Level%"></div><span class="progress-value" style="margin-left:10px">@Model.Skill[5].Level %</span>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+
+
+                <div class="shadow-1-strong bg-white my-5 p-5" id="experience">
+                    <div class="work-experience-section">
+                        <h2 class="h2 mb-4" style="color:red; font-weight:bold">Work Experience</h2>
+                        <div class="timeline">
+                            @if (@Model.Experiences[0].CompanyName != null && @Model.Experiences[0].StartDate != null && @Model.Experiences[0].EndDate != null && @Model.Experiences[0].JobTitle != null && @Model.Experiences[0].Details != null)
+                            {
+                            <div class="timeline-card timeline-card-info" data-aos-delay="0">
+                                <div class="timeline-head px-4 pt-3">
+                                    <div class="h5">@Model.Experiences[0].JobTitle <span class="text-muted h6">at @Model.Experiences[0].CompanyName</span></div>
+                                </div>
+                                <div class="timeline-body px-4 pb-4">
+                                    <div class="text-muted text-small mb-3">@Model.Experiences[0].StartDate - @Model.Experiences[0].EndDate</div>
+                                    <div>@Model.Experiences[0].Details</div>
+                                </div>
+                            </div>
+                            }
+                              @if (@Model.Experiences[1].CompanyName != null && @Model.Experiences[1].StartDate != null && @Model.Experiences[1].EndDate != null && @Model.Experiences[1].JobTitle != null && @Model.Experiences[1].Details != null)
+                            {
+                                <div class="timeline-card timeline-card-info"   data-aos-delay="200">
+                                    <div class="timeline-head px-4 pt-3">
+                                        <div class="h5">@Model.Experiences[1].JobTitle <span class="text-muted h6">at @Model.Experiences[1].CompanyName</span></div>
+                                    </div>
+                                    <div class="timeline-body px-4 pb-4">
+                                        <div class="text-muted text-small mb-3">@Model.Experiences[1].StartDate - @Model.Experiences[1].EndDate</div>
+                                        <div>@Model.Experiences[1].Details</div>
+                                    </div>
+                                </div>
+                            }
+                              @if (@Model.Experiences[2].CompanyName != null && @Model.Experiences[2].StartDate != null && @Model.Experiences[2].EndDate != null && @Model.Experiences[2].JobTitle != null && @Model.Experiences[2].Details != null)
+                            {
+                                <div class="timeline-card timeline-card-info"   data-aos-delay="400">
+                                    <div class="timeline-head px-4 pt-3">
+                                        <div class="h5">@Model.Experiences[2].JobTitle <span class="text-muted h6">at @Model.Experiences[2].CompanyName</span></div>
+                                    </div>
+                                    <div class="timeline-body px-4 pb-4">
+                                        <div class="text-muted text-small mb-3">@Model.Experiences[2].StartDate - @Model.Experiences[2].EndDate</div>
+                                        <div>@Model.Experiences[2].Details</div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="shadow-1-strong bg-white my-5 p-5" id="education">
+                    <div class="education-section">
+                        <h2 class="h2  mb-4" style="color:red; font-weight:bold">Projects</h2>
+                        <div class="timeline">
+                            @if (@Model.Projects[0].Title != null && @Model.Projects[0].Description != null && @Model.Projects[0].Link != null && @Model.Projects[0].EndDate != null)
+                            {
+                                <div class="timeline-card timeline-card-success"  data-aos-delay="0">
+
+                                    <div class="timeline-head px-4 pt-3">
+                                        <div class="h5">@Model.Projects[0].Title <span class="text-muted h6">Resource: @Model.Projects[0].Link</span>          </div>
+                                    </div>
+                                    <div class="timeline-body px-4 pb-4">
+                                        <div class="text-muted text-small mb-3">@Model.Projects[0].EndDate</div>
+                                        <div>@Model.Projects[0].Description</div>
+                                    </div>
+
+                                </div>
+                            }
+                            @if (@Model.Projects[1].Title != null && @Model.Projects[1].Description != null && @Model.Projects[1].Link != null && @Model.Projects[1].EndDate != null)
+                            {
+                                <div class="timeline-card timeline-card-success"  data-aos-delay="200">
+
+                                    <div class="timeline-head px-4 pt-3">
+                                        <div class="h5">@Model.Projects[1].Title <span class="text-muted h6">Resource: @Model.Projects[1].Link</span>          </div>
+                                    </div>
+                                    <div class="timeline-body px-4 pb-4">
+                                        <div class="text-muted text-small mb-3">@Model.Projects[1].EndDate</div>
+                                        <div>@Model.Projects[1].Description</div>
+                                    </div>
+
+                                </div>
+                            }
+                             @if (@Model.Projects[2].Title != null && @Model.Projects[2].Description != null && @Model.Projects[2].Link != null && @Model.Projects[2].EndDate != null)
+                                {
+                            <div class="timeline-card timeline-card-success" data-aos-delay="400">
+                               
+                                    <div class="timeline-head px-4 pt-3">
+                                        <div class="h5">@Model.Projects[2].Title <span class="text-muted h6">Resource: @Model.Projects[2].Link</span>          </div>
+                                    </div>
+                                    <div class="timeline-body px-4 pb-4">
+                                        <div class="text-muted text-small mb-3">@Model.Projects[2].EndDate</div>
+                                        <div>@Model.Projects[2].Description</div>
+                                    </div>
+
+                                    </div>
+                                }
+                            </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/template3/mdb.min.js?ver=1.2.1"></script>
+    <script src="/js/template3/aos.js?ver=1.2.1"></script>
+    <script src="/js/template3/main.js?ver=1.2.1"></script>
+</body>
+</html>
+

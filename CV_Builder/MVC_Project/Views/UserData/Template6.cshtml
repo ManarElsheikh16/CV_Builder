@@ -1,0 +1,359 @@
+﻿@model UserData
+@{
+    ViewData["Title"] = "Template6";
+    Layout = "_Layout";
+}
+
+<!--
+author: Boostraptheme
+author URL: https://boostraptheme.com
+License: Creative Commons Attribution 4.0 Unported
+License URL: https://creativecommons.org/licenses/by/4.0/
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="shortcut icon" href="/img/template6/favicon.ico">
+    <title>Profile Bootstrap Theme</title>
+
+    <!-- Global stylesheets -->
+    <link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fontawesome.com/icons/linkedin?f=brands&s=solid" rel="stylesheet">
+    <link href="https://fontawesome.com/icons/github?f=brands&s=solid" rel="stylesheet">
+    <link href="/css/template6/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="/css/template6/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link href="/css/template6/style.css" rel="stylesheet">
+</head>
+
+<body id="page-top" >
+
+    <div class="container-fluid p-0" style="margin-left:auto; margin-right:auto; ">
+
+        <!--====================================================
+                            ABOUT
+        ======================================================-->
+        <section class="resume-section p-3 p-lg-5 d-flex d-column" id="aboutTemp6">
+            <div class="my-auto">
+                <img src="/img/clients/@Model.PersonalInfo.Photo" style="width: 210px;   border: 6px solid cornflowerblue;" class="img-fluid mb-3" alt="">
+                <h1>
+                    @Model.PersonalInfo.Name
+                </h1>
+                <div class="subheading mb-5">
+                    <h3>  @Model.PersonalInfo.JobTitle  </h3>
+                </div>
+                <div>
+
+                                    <a href="@Model.Links.GitHub" target="_blank"><i style="font-size:34px;    margin: 15px;color:black" class="fa-brands fa-github"></i></a>
+                                    
+                                    <a href="@Model.Links.Linkedin" target="_blank"><i style="font-size:34px; color:blue;" class="fa-brands fa-linkedin"></i></a>
+                                    
+                                </div>
+
+
+            </div>
+        </section>
+
+        <div style="transform: translate(-451px, 90px);">
+            <h4>Objectives</h4>
+        </div>
+        <section class="info-section d-flex d-column" style="margin-left:auto; margin-right:auto; ">
+            
+            <div class="col-md-5 d-flex flex-md-wrap text-left offset-sm-1">
+                
+                <p>@Model.CoverLetter</p>
+            </div>
+
+            <div class="col-md-5 text-left offset-md-1">
+                <h4>Personal Information</h4>
+                <div class="row mt-2">
+
+                    <div class="col-sm-3">
+                        <div class="pb-2 fw-bolder">Age</div>
+                    </div>
+
+                    <div class="col-sm-7">
+                        <div class="pb-2">@Model.PersonalInfo.Age</div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="pb-2 fw-bolder"> Email</div>
+                    </div>
+
+                    <div class="col-sm-7">
+                        <div class="pb-2"> <a href="mailto:@Model.PersonalInfo.Email" target="_blank">@Model.PersonalInfo.Email</a></div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="pb-2 fw-bolder">Phone</div>
+                    </div>
+
+                    <div class="col-sm-7">
+                        <div class="pb-2">@Model.PersonalInfo.Phone</div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="pb-2 fw-bolder"> Address</div>
+                    </div>
+
+                    <div class="col-sm-7">
+                        <div class="pb-2">@Model.PersonalInfo.Address</div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="pb-2 fw-bolder">Language</div>
+                    </div>
+
+                    <div class="col-sm-7">
+                        <div class="pb-2">@Model.PersonalInfo.Languages</div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS -->
+        <!--======================================================-->
+        <section class=" d-flex flex-column" id="skillsTemp6">
+            <div class="p-lg-5 p-3 skill-cover">
+                <h3 class="text-center text-white">Coding Skills</h3>
+                <div class="row text-center my-auto" style="margin-left:auto; margin-right:auto ">
+                       @if (@Model.Skill[0].Name != null && @Model.Skill[0].Level != null)
+                                {
+                        <div class="col-md-3 col-sm-6">
+                            <div class="skill-item">
+                                <i class="fa fa-globe fa-5x"></i>
+                            <h2><span class="counter"> @Model.Skill[0].Level </span><span>%</span></h2>
+                                <p>@Model.Skill[0].Name</p>
+                            </div>
+                        </div>
+                                }
+
+                       @if (@Model.Skill[1].Name != null && @Model.Skill[1].Level != null)
+                                {
+                    <div class="col-md-3 col-sm-6">
+                        <div class="skill-item">
+                            <i class="fa fa-globe fa-5x"></i>
+                            <h2><span class="counter"> @Model.Skill[1].Level </span><span>%</span></h2>
+                            <p>@Model.Skill[1].Name</p>
+                        </div>
+                    </div>
+                                }
+                   
+                                    @if (@Model.Skill[2].Name != null && @Model.Skill[2].Level != null)
+                                {
+                        <div class="col-md-3 col-sm-6">
+                            <div class="skill-item">
+                                <i class="fa fa-globe fa-5x"></i>
+                            <h2><span class="counter"> @Model.Skill[2].Level </span><span>%</span></h2>
+                                <p>@Model.Skill[2].Name</p>
+                            </div>
+                        </div>
+                                }
+                   
+                                    @if (@Model.Skill[3].Name != null && @Model.Skill[3].Level != null)
+                                {
+                        <div class="col-md-3 col-sm-6">
+                            <div class="skill-item">
+                                <i class="fa fa-globe fa-5x"></i>
+                            <h2><span class="counter"> @Model.Skill[3].Level </span><span>%</span></h2>
+                                <p>@Model.Skill[3].Name</p>
+                            </div>
+                        </div>
+                                }
+                     
+                                    @if (@Model.Skill[4].Name != null && @Model.Skill[4].Level != null)
+                                {
+                    <div class="col-md-3 col-sm-6">
+                        <div class="skill-item">
+                            <i class="fa fa-globe fa-5x"></i>
+                            <h2><span class="counter">@@Model.Skill[4].Level </span><span>%</span></h2>
+                            <p>@Model.Skill[4].Name</p>
+                        </div>
+                    </div>
+                                }
+
+                                    @if (@Model.Skill[5].Name != null && @Model.Skill[5].Level != null)
+                                {
+                    <div class="col-md-3 col-sm-6">
+                        <div class="skill-item">
+                            <i class="fa fa-globe fa-5x"></i>
+                            <h2><span class="counter">@@Model.Skill[5].Level </span><span>%</span></h2>
+                            <p>@Model.Skill[5].Name</p>
+                        </div>
+                    </div>
+                                }
+                </div>
+            </div>
+        </section>
+
+        <!--====================================================
+                            EXPERIENCE
+        ======================================================-->
+        <section class="resume-section p-3 p-lg-5 " id="experience">
+            <div class="row my-auto" style="margin-left:auto; margin-right:auto ">
+                <div class="col-12">
+                    <h2 class="  text-center">Work Experience</h2>
+                    <div class="mb-5 heading-border"></div>
+                </div>
+                <div class="main-award" id="award-box">
+                    
+                      @if (@Model.Experiences[0].CompanyName != null && @Model.Experiences[0].StartDate != null && @Model.Experiences[0].EndDate != null && @Model.Experiences[0].JobTitle != null && @Model.Experiences[0].Details != null)
+                    {
+                        <div class="award">
+                            <div class="award-icon"></div>
+                            <div class="award-content">
+                                <span class="date">@Model.Experiences[0].StartDate.ToShortDateString() - @Model.Experiences[0].EndDate.ToShortDateString()</span>
+                                <h4 class="title">@Model.Experiences[0].JobTitle</h4> <h3>at Company:@Model.Experiences[0].CompanyName</h3>
+                                <p class="description">@Model.Experiences[0].Details</p>
+                            </div>
+                        </div>
+                    }
+
+                          @if (@Model.Experiences[1].CompanyName != null && @Model.Experiences[1].StartDate != null && @Model.Experiences[1].EndDate != null && @Model.Experiences[1].JobTitle != null && @Model.Experiences[1].Details != null)
+                    {
+                        <div class="award">
+                            <div class="award-icon"></div>
+                            <div class="award-content">
+                                <span class="date">@Model.Experiences[1].StartDate.ToShortDateString() - @Model.Experiences[1].EndDate.ToShortDateString()</span>
+                                <h4 class="title">@Model.Experiences[1].JobTitle</h4> <h3>at Company:@Model.Experiences[1].CompanyName</h3>
+                                <p class="description">@Model.Experiences[1].Details</p>
+                            </div>
+                        </div>
+                    }
+                    @if (@Model.Experiences[2].CompanyName != null && @Model.Experiences[2].StartDate != null && @Model.Experiences[2].EndDate != null && @Model.Experiences[2].JobTitle != null && @Model.Experiences[2].Details != null)
+                    {
+                        <div class="award">
+                            <div class="award-icon"></div>
+                            <div class="award-content">
+                                <span class="date">@Model.Experiences[2].StartDate.ToShortDateString() - @Model.Experiences[2].EndDate.ToShortDateString()</span>
+                                <h4 class="title">@Model.Experiences[2].JobTitle</h4> <h3>at Company:@Model.Experiences[2].CompanyName</h3>
+                                <p class="description">@Model.Experiences[2].Details</p>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </section>
+
+        <!--====================================================
+
+                        Education
+        ======================================================-->
+        <section class="resume-section p-3 p-lg-5 " id="Education" style="margin:0 auto; ">
+            <div class="row my-auto" style="margin-left:auto; margin-right:auto ">
+                <div class="col-12">
+                    <h2 class="  text-center">Projects</h2>
+                    <div class="mb-5 heading-border"></div>
+                </div>
+               
+                 @if (@Model.Projects[0].Title != null && @Model.Projects[0].Description != null && @Model.Projects[0].Link != null && @Model.Projects[0].EndDate != null)
+                {
+                    <div class="resume-item col-md-6 col-sm-12 ">
+                        <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
+                            <div class=" resume-content mr-auto">
+                                <h4 class="mb-3"><i class="fa fa-globe mr-3 text-info"></i> @Model.Projects[0].Title</h4>
+                                <p>@Model.Projects[0].Description.</p>
+                            </div>
+                            <div class="resume-date text-md-right">
+                                <span class="text-primary">@Model.Projects[0].EndDate.ToShortDateString()</span>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+                 @if (@Model.Projects[1].Title != null && @Model.Projects[1].Description != null && @Model.Projects[1].Link != null && @Model.Projects[1].EndDate != null)
+                {
+                    <div class="resume-item col-md-6 col-sm-12 ">
+                        <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
+                            <div class=" resume-content mr-auto">
+                                <h4 class="mb-3"><i class="fa fa-globe mr-3 text-info"></i> @Model.Projects[1].Title</h4>
+                                <p>@Model.Projects[1].Description.</p>
+                            </div>
+                            <div class="resume-date text-md-right">
+                                <span class="text-primary">@Model.Projects[1].EndDate.ToShortDateString()</span>
+                            </div>
+                        </div>
+                    </div>
+                }
+                 @if (@Model.Projects[2].Title != null && @Model.Projects[2].Description != null && @Model.Projects[2].Link != null && @Model.Projects[2].EndDate != null)
+                {
+                    <div class="resume-item col-md-6 col-sm-12 ">
+                        <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
+                            <div class=" resume-content mr-auto">
+                                <h4 class="mb-3"><i class="fa fa-globe mr-3 text-info"></i> @Model.Projects[2].Title</h4>
+                                <p>@Model.Projects[2].Description.</p>
+                            </div>
+                            <div class="resume-date text-md-right">
+                                <span class="text-primary">@Model.Projects[2].EndDate.ToShortDateString()</span>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </section>
+
+
+    </div>
+
+
+
+
+    <!-- Global javascript -->
+    <script src="/js/template6/jquery/jquery.min.js"></script>
+    <script src="/js/template6/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="/js/template6/jquery-easing/jquery.easing.min.js"></script>
+    <script src="/js/template6/counter/jquery.waypoints.min.js"></script>
+    <script src="/js/template6/counter/jquery.counterup.min.js"></script>
+    <script src="/js/template6/custom.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $(".filter-b").click(function () {
+                var value = $(this).attr('data-filter');
+                if (value == "all") {
+                    $('.filter').show('1000');
+                }
+                else {
+                    $(".filter").not('.' + value).hide('3000');
+                    $('.filter').filter('.' + value).show('3000');
+                }
+            });
+
+            if ($(".filter-b").removeClass("active")) {
+                $(this).removeClass("active");
+            }
+            $(this).addClass("active");
+        });
+
+        // SKILLS
+        $(function () {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 2000
+            });
+
+        });
+    </script>
+</body>
+
+</html>
+
