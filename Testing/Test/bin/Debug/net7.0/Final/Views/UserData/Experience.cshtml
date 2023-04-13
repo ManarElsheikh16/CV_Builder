@@ -1,0 +1,123 @@
+﻿@using Final.ViewModel;
+@model UserData
+
+@{
+    Layout = "_UserDataLayout";
+    ViewData["Title"] = "Experience";
+}
+
+<h1>Experience</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Project" asp-controller="UserData" >
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            
+        @*experience*@
+
+                @for (int i = 0; i < Model.Experiences.Count; i++)
+                {
+             <div class="form-group ">
+                    <label asp-for="@Model.Experiences[i].CompanyName" class="control-label"></label>
+                    <input asp-for="@Model.Experiences[i].CompanyName" class="form-control" style="width:250px" />
+                    <span asp-validation-for="@Model.Experiences[i].CompanyName" class="text-danger"></span>
+            </div>
+                        <div class="form-group ">
+                    <label asp-for="@Model.Experiences[i].JobTitle" class="control-label"></label>
+                    <input asp-for="@Model.Experiences[i].JobTitle" class="form-control" style="width:250px" />
+                    <span asp-validation-for="@Model.Experiences[i].JobTitle" class="text-danger"></span>
+            </div>
+                        <div class="form-group ">
+                    <label asp-for="@Model.Experiences[i].StartDate" class="control-label"></label>
+                    <input asp-for="@Model.Experiences[i].StartDate" class="form-control" style="width:250px" />
+                    <span asp-validation-for="@Model.Experiences[i].StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group ">
+                    <label asp-for="@Model.Experiences[i].EndDate" class="control-label"></label>
+                    <input asp-for="@Model.Experiences[i].EndDate" class="form-control" style="width:250px" />
+                    <span asp-validation-for="@Model.Experiences[i].EndDate" class="text-danger"></span>
+            </div>
+                        <div class="form-group">
+                    <label asp-for="@Model.Experiences[i].Details" class="control-label"></label>
+                    <textarea asp-for="@Model.Experiences[i].Details" class="form-control" style="height: 140px;width: 450px;"></textarea>
+                    <span asp-validation-for="@Model.Experiences[i].Details" class="text-danger"></span>
+            </div>
+
+            
+            }
+            @*personal info*@
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.PersonalInfo.Address" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Address" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.PersonalInfo.Phone" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Phone" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.PersonalInfo.Photo" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Photo" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.PersonalInfo.Name" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Name" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.PersonalInfo.Email" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Email" class="form-control"></input>
+
+            </div>
+            <div class="form-group">
+
+                <input hidden type="text" value="@Model.PersonalInfo.JobTitle" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.JobTitle" class="form-control"></input>
+
+            </div>
+            @* cover letter*@
+            <div class="form-group">
+                <textarea hidden value="@Model.CoverLetter" style="height: 140px;width: 450px;" asp-for="@Model.CoverLetter" class="form-control"></textarea>
+
+            </div>
+          
+           @* skills*@
+            @for (int i=0; i<Model.Skill.Count; i++)
+                {
+
+                 
+                    <div class="form-group ">
+
+                    <input hidden value="@Model.Skill[i].Name" asp-for="@Model.Skill[i].Name" id="SkillName" class="form-control" style="width:100%" />
+                            
+                    </div>
+
+                    <div class="form-group ">
+
+                    <input hidden value="@Model.Skill[i].Level" asp-for="@Model.Skill[i].Level" type="range" min="20" max="100" step="20" value="20" style="width:100%" />
+                            
+                    </div>
+                    
+          
+                 
+                }
+
+
+
+            <div class="form-group">
+                <br />
+
+                <input type="submit"  value="Next"  class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+   
+  }
+

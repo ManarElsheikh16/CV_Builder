@@ -1,0 +1,95 @@
+﻿@using Final.ViewModel;
+@model UserData
+
+@{
+    Layout = "_UserDataLayout";
+    ViewData["Title"] = "Skill";
+}
+
+<h1>Skills</h1>
+<hr />
+<div class="row">
+    <div class="col-md-12"style="height:auto" >
+      
+           
+        <form asp-action="Experience" asp-controller="UserData">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="d-flex flex-wrap" id="RadioBtn">
+           @* skills*@
+             @for (int i=0; i<Model.Skill.Count; i++)
+                {
+
+                 <div class="col-md-6 flex-wrap">
+                    <div class="form-group col-md-6">
+                            <label asp-for="@Model.Skill[i].Name" class="control-label"></label>
+                            <input asp-for="@Model.Skill[i].Name" id="SkillName" class="form-control" style="width:100%" />
+                            <span asp-validation-for="@Model.Skill[i].Name" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group col-md-6" style="padding:20px 0;">
+                            <label asp-for="@Model.Skill[i].Level" class="control-label"></label>
+                            <input asp-for="@Model.Skill[i].Level" type="range" min="20" max="100" step="20" value="20" style="width:100%" />
+                            <span asp-validation-for="@Model.Skill[i].Level" class="text-danger"></span>
+                    </div>
+                    
+          
+                   </div>
+                }
+
+                @*personal info*@
+                <div class="form-group">
+
+                    <input hidden type="text" value="@Model.PersonalInfo.Address" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Address" class="form-control"></input>
+
+                </div>
+                <div class="form-group">
+
+                    <input hidden type="text" value="@Model.PersonalInfo.Phone" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Phone" class="form-control"></input>
+
+                </div>
+                <div class="form-group">
+
+                    <input hidden type="text" value="@Model.PersonalInfo.Photo" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Photo" class="form-control"></input>
+
+                </div>
+                <div class="form-group">
+
+                    <input hidden type="text" value="@Model.PersonalInfo.Name" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Name" class="form-control"></input>
+
+                </div>
+                <div class="form-group">
+
+                    <input hidden type="text" value="@Model.PersonalInfo.Email" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.Email" class="form-control"></input>
+
+                </div>
+                <div class="form-group">
+
+                    <input hidden type="text" value="@Model.PersonalInfo.JobTitle" style="height: 140px;width: 450px;" asp-for="@Model.PersonalInfo.JobTitle" class="form-control"></input>
+
+                </div>
+               @* cover letter*@
+                <div class="form-group">
+                    <textarea hidden value="@Model.CoverLetter" style="height: 140px;width: 450px;" asp-for="@Model.CoverLetter" class="form-control"></textarea>
+
+                </div>
+                
+  
+            <div class="form-group">
+                <br />
+             
+                <input type="submit"  value="Next" class="btn btn-primary" />
+            </div>
+            </div>
+        </form>
+       
+        
+    </div>
+
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+}

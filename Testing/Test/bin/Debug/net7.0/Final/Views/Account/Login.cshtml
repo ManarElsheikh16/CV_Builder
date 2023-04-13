@@ -1,0 +1,67 @@
+﻿@model Final.ViewModel.LoginViewModel
+
+@{
+    Layout = "_LoginLayout";
+    ViewData["Title"] = "Login";
+}
+<header>
+
+    <title>Ninestars Bootstrap Template - Index</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href=" img/favicon.png" rel="icon">
+    <link href=" img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="=vendor/aos/aos.css" rel="stylesheet">
+    <link href=" vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href=" vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href=" vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href=" vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href=" vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="css/style.css" rel="stylesheet">
+</header>
+
+<h1>Login</h1>
+
+
+<hr style="width:10rem"/>
+<div class="row" >
+    <div class="col-md-4" >
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group" style="width:25rem ; margin-bottom:20px">
+                <label asp-for="UserName" class="control-label8"></label>
+                <input asp-for="UserName" class="form-control"/>
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="width:25rem ; margin-bottom:20px">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check" style=" margin-bottom:20px">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="RememberMe" /> @Html.DisplayNameFor(model => model.RememberMe)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-primary" style="padding:10px; width:15rem;margin-bottom:20px" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="Index" class="btn" style="padding:10px; width:15rem; background-color:coral; color:white">Home</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

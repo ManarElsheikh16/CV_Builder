@@ -1,0 +1,64 @@
+﻿@using Final.ViewModel;
+@model UserData
+
+@{
+    Layout = "_UserDataLayout";
+    ViewData["Title"] = "PersonalInfo";
+}
+
+<h1>Personal Information</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-4"> 
+        <form asp-action="coverLetter" asp-controller="UserData" >
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            @*personalinfo*@
+            <div class="form-group">
+                <label asp-for="@Model.PersonalInfo.Name" class="control-label"></label>
+                <input asp-for="@Model.PersonalInfo.Name" class="form-control" style="width:250px" />
+                <span asp-validation-for="@Model.PersonalInfo.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.PersonalInfo.Address" class="control-label"></label>
+                <input asp-for="@Model.PersonalInfo.Address" class="form-control" style="width:250px" />
+                <span asp-validation-for="@Model.PersonalInfo.Address" class="text-danger"></span>
+            </div>
+
+             <div class="form-group">
+                <label asp-for="@Model.PersonalInfo.Email" class="control-label"></label>
+                <input asp-for="@Model.PersonalInfo.Email" class="form-control" style="width:250px" />
+                <span asp-validation-for="@Model.PersonalInfo.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.PersonalInfo.Phone" class="control-label"></label>
+                <input asp-for="@Model.PersonalInfo.Phone" class="form-control" style="width:250px" />
+                <span asp-validation-for="@Model.PersonalInfo.Phone" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="@Model.PersonalInfo.Photo" class="control-label"></label>
+                <input asp-for="@Model.PersonalInfo.Photo" type="file" class="form-control" style="width:250px" />
+                <span asp-validation-for="@Model.PersonalInfo.Photo" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="@Model.PersonalInfo.JobTitle" class="control-label"></label>
+                <input asp-for="@Model.PersonalInfo.JobTitle" class="form-control" style="width:250px" />
+                <span asp-validation-for="@Model.PersonalInfo.JobTitle" class="text-danger"></span>
+            </div>
+   
+            <div class="form-group">
+                <br />
+                <input type="submit" value="Next" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
